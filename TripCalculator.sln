@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripCalculator", "TripCalculator\TripCalculator.csproj", "{9BEF4497-EE54-4758-9A07-2CAA988075F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripCalculator.UnitTests", "TripCalculator.UnitTests\TripCalculator.UnitTests.csproj", "{BA0C6F62-B33F-4F24-8582-27C8ECC7F1D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BEF4497-EE54-4758-9A07-2CAA988075F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BEF4497-EE54-4758-9A07-2CAA988075F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BEF4497-EE54-4758-9A07-2CAA988075F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BEF4497-EE54-4758-9A07-2CAA988075F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA0C6F62-B33F-4F24-8582-27C8ECC7F1D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA0C6F62-B33F-4F24-8582-27C8ECC7F1D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA0C6F62-B33F-4F24-8582-27C8ECC7F1D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA0C6F62-B33F-4F24-8582-27C8ECC7F1D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20493725-9DB8-4BF7-8CC1-B6D5E485EC82}
+	EndGlobalSection
+EndGlobal
