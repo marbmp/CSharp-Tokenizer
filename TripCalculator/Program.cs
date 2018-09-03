@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using TripCalculator.FileProcessor;
@@ -14,6 +15,7 @@ namespace TripCalculator
         {
             try
             {
+                Console.WriteLine(String.Format("Enter the file name at {0}", System.IO.Path.GetDirectoryName(Assembly.GetEntryAssembly().Location)));
                 //Read file name
                 string fileName = Console.ReadLine();
                 //Exit if no name is inputed
